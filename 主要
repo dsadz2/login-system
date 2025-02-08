@@ -1,0 +1,26 @@
+/login-system/
+├── client/                 # 前端代码
+│   ├── css/
+│   │   └── style.css       # 样式文件
+│   ├── js/
+│   │   └── main.js         # 前端逻辑
+│   └── index.html          # 登录页面
+│
+├── server/                 # 后端代码
+│   ├── config/             # 配置文件
+│   │   ├── passport.js     # 第三方登录策略
+│   │   └── database.js     # 数据库连接
+│   ├── routes/             # 路由文件
+│   │   ├── auth.js         # 认证路由
+│   │   └── users.js        # 用户路由
+│   ├── models/             # 数据模型
+│   │   └── User.js         # 用户模型
+│   └── server.js           # 主入口文件
+│
+├── sql/                    # 数据库脚本
+│   └── init.sql            # 初始化SQL
+│
+├── .gitignore              # Git忽略规则
+├── package.json            # 后端依赖
+├── README.md               # 项目说明
+└── .env.example            # 环境变量示例
